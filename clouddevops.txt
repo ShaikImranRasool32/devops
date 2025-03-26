@@ -1,0 +1,84 @@
+Linux commands every devops engineer should know
+
+
+ls :lists directory contents
+cd :changes the current directory
+pwd :prints the current directory path
+mkdir :creates new directory
+mkdir clouddevops
+
+touch :create empty files
+touch sample.txt
+
+cp :copies the fires or directories
+cp helloworld.txt /root
+
+
+mv :moves or rename file or directory
+mv sample.txt /root
+
+rm :removes files or directories
+rm sample.txt
+
+ln :creates hard or symbolic links between files
+ln sample.txt link_to_sample.txt
+This creates a hard link named link_to_sample.txt pointing to sample.txt.
+
+
+
+vi :to open file
+    i-to insert file
+esc+:wq :to exit
+cat :to  read file 
+cat helloworld.txt
+
+cal to display calender
+cal 12 2004
+
+history :to get all commands used 
+
+
+
+
+1.Networking
+for troubleshooting and managing networks
+1.curl -transfer data between system
+2.ssh-logs into terminal servers securely
+3.scp-copies the securely sercure servers
+4.ping-tests network connectivity
+5.netstat-displays network statistics
+6.ifconfig-configures network interface
+7.dig-performs the network interfaces
+8.nc-Netcat utility for reading/writing over the network-
+
+
+SYSTEM ADMINISTRATION:
+:>chown: Changes file ownership
+:>chgrp: Changes group ownership
+:>ps: List running processes
+:>top: Monitors system performance
+:>kill: terminates process
+:>df: Displays disk usage
+:>du: Estimates file/directory size
+:>free: Shows memory usage
+:>uname: prints system information
+:>lsof: Lists open files and processes
+
+
+User management
+commands for managing the user
+1.passwd:changes a user's password
+2.su:switches to another user
+3.sudo:executes commands as another user
+4.usermod:modifies users account
+5.groupadd:creates a new group
+6.id:displays user and group id
+
+
+Security
+Manage keys abd encryption 62ssh keygen generates SSH keys
+1.iptables:configures the
+
+
+Git config commands
+git config --global user name "
